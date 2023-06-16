@@ -57,9 +57,10 @@ body {
 }
 
 .date-box .time {
-	height: 4rem;
+	font-size: 4rem;
+	font-weight: bold;
 }
 
 .date-box .date {
-	height: 1.8rem;
+	font-size: 1.8rem;
 }
