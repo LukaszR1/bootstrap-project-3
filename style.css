@@ -64,3 +64,11 @@ body {
 .date-box .date {
 	font-size: 1.8rem;
 }
+
+.menu{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   height: 700px;
+}
