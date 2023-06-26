@@ -108,15 +108,16 @@
   <script>
     var options = {
       series: [{
-        name: 'series1',
+        name: 'Aktywni użytkownicy',
         data: [31, 40, 28, 51, 42, 109, 50]
       }, {
-        name: 'series2',
+        name: 'ilośc postów',
         data: [11, 32, 45, 32, 34, 52, 41]
       }],
       chart: {
         height: 350,
-        type: 'area'
+        type: 'area',
+        foreColor:'#fff'
       },
       dataLabels: {
         enabled: false
@@ -133,7 +134,11 @@
           format: 'dd/MM/yy HH:mm'
         },
       },
+      legend:{
+        show:false
+      }
     };
+    
 
     var chart = new ApexCharts(document.querySelector("#chart"), options);
     chart.render();
