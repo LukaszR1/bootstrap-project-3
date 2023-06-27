@@ -88,10 +88,11 @@
               <div id="chart" class="py-5 text-dark"></div>
             </section>
 
+            <section class="main-table p-5">
+          <div class="d-flex justify-content-between"></div>
+            </section>
+
           </div>
-
-
-
 
           <div class="col-3 p-4 text-light text-center aside"></div>
         </div>
@@ -117,7 +118,7 @@
       chart: {
         height: 350,
         type: 'area',
-        foreColor:'#fff'
+        foreColor: '#fff'
       },
       dataLabels: {
         enabled: false
@@ -134,11 +135,11 @@
           format: 'dd/MM/yy HH:mm'
         },
       },
-      legend:{
-        show:false
+      legend: {
+        show: false
       }
     };
-    
+
 
     var chart = new ApexCharts(document.querySelector("#chart"), options);
     chart.render();
