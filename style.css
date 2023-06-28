@@ -146,15 +146,3 @@ body {
 	font-size: 1.2rem;
 }
 
-/* ------------- */
-.form-select {
-	width:100px;
-	font-size: 2rem;
-    background-color: #333;
-    color: #fff; 
-	
-}
-.form-select option {
-    background-color: #fff;
-    color: #000;
-  }
